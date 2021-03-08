@@ -3,7 +3,7 @@ ARG PORT=8080
 # traemos la imagen de node 12 con kernel de alpine
 FROM node:12-alpine
 # label para agregar metadatos
-LABEL autor="El Villa"
+LABEL autor="Diego Gilbert, Dario Arias"
 # cremos el directorio de la app
 WORKDIR /usr/src/app
 # copiamos el archivo a nuestra carpeta 
